@@ -1,0 +1,8 @@
+.env
+venv/
+__pycache__/
+*.pyc 
+.DS_Store
+*.log
+test_api.py
+test_performance.py

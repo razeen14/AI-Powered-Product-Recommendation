@@ -1,0 +1,130 @@
+.browsing-history-container {
+  padding: 1rem;
+}
+
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.history-header h2 {
+  margin: 0;
+  color: #333;
+}
+
+.clear-history-btn {
+  padding: 0.5rem 1.5rem;
+  background: #f44336;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.clear-history-btn:hover {
+  background: #d32f2f;
+}
+
+.empty-history {
+  text-align: center;
+  padding: 3rem;
+  color: #999;
+}
+
+.empty-history p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.history-list {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: white;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.history-item:hover {
+  border-color: #667eea;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.history-item-content {
+  flex: 1;
+}
+
+.product-info-compact h4 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.product-info-compact .product-details {
+  margin: 0 0 0.25rem 0;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.product-info-compact .product-rating {
+  margin: 0;
+  color: #ffa500;
+  font-size: 0.9rem;
+}
+
+.remove-btn {
+  width: 36px;
+  height: 36px;
+  background: #f44336;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  flex-shrink: 0;
+}
+
+.remove-btn:hover {
+  background: #d32f2f;
+  transform: scale(1.1);
+}
+
+.history-summary {
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 10px;
+  border-left: 4px solid #667eea;
+}
+
+.history-summary p {
+  margin: 0.25rem 0;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.categories-viewed,
+.brands-viewed {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.hint {
+  font-size: 0.9rem;
+  color: #999;
+}
