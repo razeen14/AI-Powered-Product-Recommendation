@@ -195,9 +195,3 @@ The system uses sophisticated prompt engineering to:
 - Input Validation: Pydantic models validate all inputs
 - CORS Configuration: Controlled cross-origin access
 - Error Messages: Sanitized error responses
-
-# License
-This project was created as part of a technical assessment. All rights reserved.
-
-# Author
-Vansh Motiramani
